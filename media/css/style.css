@@ -1,0 +1,46 @@
+* {margin: 0; padding: 0}
+
+body {margin: 0;padding: 0px;font-size: small;;line-height: 1.5em;font-family: Helvetica, Arial, sans-serif}
+
+#container {position: relative;width: 1000px;margin: 0 auto;padding: 5px;}
+
+#login-bar {text-align: right;position: absolute; right: 10px;top:10px}
+
+#status {border: 2px solid green;padding: 5px;color: green;margin: 0 10px;}
+
+#login-box {margin: 0 auto; border:2px solid #eee;width: 250px;padding: 20px;margin-top: 50px}
+
+#login-box label {display: block}
+#login-box p {margin: 5px 0}
+
+.flash {border-width: 2px; border-style: solid;padding: 5px;font-size: 110%}
+.error {border: 2px solid red;color:red;background: #ffd9d9}
+.info {border: 2px solid green;color:green;background: #c9e6c9;font-size: 110%}
+
+#header {background: url("../images/logo.png") no-repeat top left;padding: 20px;margin-bottom: 20px;height: 120px}
+#header h1 {margin:45px 0px 0px 4em; letter-spacing: 10px; }
+
+table {border-collapse: collapse;width: 90%;}
+
+table th {background: #eee;text-align: left;padding: 5px 2px}
+table td {padding: 5px 8px 5px 2px;background-color: #fafafa}
+
+/*linki*/
+
+a, a:link {color: #505050}
+a:hover {color: #971212}
+
+.action.top {margin-bottom: 10px;}
+.action.bottom {margin-top: 10px}
+
+#body-content {margin-top: 15px;}
+
+.flash {margin-bottom: 10px;}
+
+#comments-list {margin-bottom: 20px;}
+#comments-list p {margin-bottom: 5px;}
+.title {border-bottom: 1px dashed red;margin-bottom: 5px;width: 250px;}
+
+#menu-bar {margin-bottom: 20px;position: absolute;top: 120px;left: 145px}
+
+#footer {padding: 5px;background: #ff0000;color: #fff;font-weight: bold;margin-top: 20px}

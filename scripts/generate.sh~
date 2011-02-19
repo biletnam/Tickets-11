@@ -1,0 +1,14 @@
+#!/bin/bash/
+
+case "$s" in
+	"model") echo model ;;
+	"view") echo view ;;
+  "controller") echo controller ;;
+esac
+
+echo "Stwórz:"
+read s
+
+#$create_model=`touch application/model/$model_name.php`
+#$create_view=`touch application/view/$view_name.php`
+#$create_controller=`touch application/controllers/$controller_name.php`
